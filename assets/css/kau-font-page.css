@@ -1,0 +1,85 @@
+section{padding:60px 0;overflow:hidden;}
+.kau-setup-section-bg{margin-top:30px;background-color:#f6f9fe;}
+.kau-section-title{text-align:center;padding-bottom:30px;}
+.kau-section-title h2{font-size:13px;letter-spacing:1px;font-weight:700;padding:8px 20px;margin:0;background:#e7f1fd;color:#106eea;display:inline-block;text-transform:uppercase;border-radius:50px;}
+.kau-section-title h3{margin:15px 0 0 0;font-size:32px;font-weight:700;}
+.kau-section-title h3 span{color:#106eea;}
+.kau-section-title p{margin:15px auto 0 auto;font-weight:600;}
+@media (min-width:1024px){.kau-section-title p{width:75%;}
+}
+#kau-header{background:#fff;padding:25px 0;z-index:997;ransition:all 0.5s;box-shadow:0px 2px 15px rgba(0, 0, 0, 0.1);}
+#kau-header.header-scrolled{padding:8px;top:0;}
+#kau-header .logo{font-size:32px;margin:0;letter-spacing:0.8px;padding:0;line-height:1;font-weight:600;}
+#kau-header .logo a{color:#222222;}
+kau-header .logo a span{color:#106eea;}
+#kau-header .logo img{max-height:40px;}
+@media (max-width:992px){#kau-header{padding:15px;top:0;}
+ #kau-header .logo{font-size:28px;}
+}
+.nav-menu ul{margin:0;padding:0;list-style:none;}
+.nav-menu > ul{display:flex;}
+.nav-menu > ul > li{position:relative;white-space:nowrap;padding:10px 0 10px 28px;}
+.nav-menu a{display:block;position:relative;color:#222222;transition:0.3s;font-size:15px;font-weight:600;padding:0 3px;font-family:"Open Sans", sans-serif;}
+.nav-menu > ul > li > a:before{content:"";position:absolute;width:100%;height:2px;bottom:-5px;left:0;background-color:#8547DE;visibility:hidden;width:0px;}
+.nav-menu a:hover:before, .nav-menu li:hover > a:before,.nav-menu .active > a:before{visibility:visible;width:100%;}
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a{color:#8547DE;}
+.kau-mobile-device-nav-toggle{position:fixed;right:15px;top:15px;z-index:9998;border:0;background:none;font-size:24px;transition:all 0.4s;outline:none !important;line-height:1;cursor:pointer;text-align:right;}
+.kau-mobile-device-nav-toggle i{color:#222222;}
+.kau-mobile-device-nav{position:fixed;top:55px;right:15px;bottom:15px;left:15px;z-index:9999;overflow-y:auto;background:#fff;transition:ease-in-out 0.2s;opacity:0;visibility:hidden;border-radius:10px;padding:10px 0;}
+.kau-mobile-device-nav *{margin:0;padding:0;list-style:none;}
+.kau-mobile-device-nav a{display:block;position:relative;color:#222222;padding:10px 20px;font-weight:500;outline:none;}
+.kau-mobile-device-nav a:hover, .kau-mobile-device-nav .active > a, .kau-mobile-device-nav li:hover > a{color:#106eea;text-decoration:none;}
+.kau-mobile-device-nav-overly{width:100%;height:100%;z-index:9997;top:0;left:0;position:fixed;background:rgba(9, 9, 9, 0.6);overflow:hidden;display:none;transition:ease-in-out 0.2s;}
+.kau-mobile-device-nav-active{overflow:hidden;}
+.kau-mobile-device-nav-active .kau-mobile-device-nav{opacity:1;visibility:visible;}
+.kau-mobile-device-nav-active .kau-mobile-device-nav-toggle i{color:#fff;}
+#kau-our-feature{margin-top:35px;}
+#kaufeatureslide .card{margin-top:20px;width:auto;height:auto;}
+#kaufeatureslide img{margin-top:20px;}
+#kau-theme-banner{width:100% !important;height:100vh !important;background-size:cover;position:relative;}
+#kau-theme-banner:before{content:"";position:absolute;bottom:0;top:0;left:0;right:0;}
+#kau-theme-banner .container{position:relative;padding-top:132px;}
+@media (max-width:992px){#kau-theme-banner .container{padding-top:58px;}
+}
+#kau-theme-banner h1{margin:0;font-size:48px;font-weight:700;line-height:56px;color:#222222;font-family:"Poppins", sans-serif;}
+#kau-theme-banner h1 span{color:#D3FF57;}
+#kau-theme-banner h2{color:#555555;margin:5px 0 30px 0;font-size:18px;font-weight:400;}
+@media (min-width:1024px){#kau-theme-banner{background-attachment:fixed;}
+}
+@media (max-width:768px){#kau-theme-banner{height:100vh;}
+ #kau-theme-banner h1{font-size:28px;line-height:36px;}
+ #kau-theme-banner h2{font-size:18px;line-height:24px;margin-bottom:30px;}
+ #kau-theme-banner .btn-get-started, #kau-theme-banner .btn-watch-video{font-size:13px;}
+}
+@media (max-height:500px){#kau-theme-banner{height:120vh;}
+}
+.why-us-section .icon-box{padding:30px;position:relative;overflow:hidden;background:#fff;box-shadow:0 0 29px 0 rgba(68, 88, 144, 0.12);transition:all 0.3s ease-in-out;border-radius:8px;z-index:1;}
+.why-us-section .icon-box::before{content:'';position:absolute;background:#cbe0fb;right:0;left:0;bottom:0;top:100%;transition:all 0.3s;z-index:-1;}
+.why-us-section .icon-box:hover::before{background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(198,130,230,1) 0%, rgba(255,107,107,1) 100%);top:0;border-radius:0px;}
+.why-us-section .icon{margin-bottom:15px;}
+.why-us-section .icon i{font-size:48px;line-height:1;color:#8D40C0;transition:all 0.3s ease-in-out;}
+.why-us-section .title{font-weight:700;margin-bottom:15px;font-size:18px;color:#111;}
+.why-us-section .why-us-section-title{margin-bottom:10px;}
+.why-us-section .why-us-section-title-desc{margin-bottom:10px;font-size:17px;font-style:bold;}
+.why-us-section.description{font-size:13px;line-height:28px;margin-bottom:0;font-style:bold;}
+.why-us-section .icon-box:hover .title ,.why-us-section .icon-box:hover .description{color:#fff;}
+.why-us-section .icon-box:hover .icon i{color:#fff;}
+.kau-button{border:none;color:#9E30AA;padding:15px 32px !important;text-align:center;text-decoration:none;display:inline-block;font-size:16px;font-style:bold;margin:4px 2px;cursor:pointer;}
+.head-button{background-color:#D3FF57;}
+ .head-button2{background-color:#FFFFFF;}
+ .kau-footer-container{padding:45px;}
+.kau-separator{margin-top:35px;margin-bottom:20px;display:flex;align-items:center;text-align:center;}
+.kau-separator::before, .kau-separator::after{content:'';flex:1;border-bottom:2px solid #8547DE;}
+.kau-separator::before{margin-right:.95em;}
+.kau-separator::after{margin-left:.95em;}
+.kau-plugin-btn-down{border:2px solid #8547DE !important;border-radius:30px !important;background-color:white !important;color:#8547DE !important;padding:14px 28px !important;font-size:16px !important;cursor:pointer !important;}
+.kau-plugin-btn-down:hover{background-color:#8547DE !important;color:white !important;}
+.kau-next-slide-icon:hover{color:linear-gradient(to right, #0099ff -35%, #ff6699 100%) !important;}
+/** kau Contact Us **/#kau-contact{margin-top:60px;}
+#success-message{opacity:0;}
+.kau-theme-conatct-form{padding:0 20% 0 20%;}
+.kau-contact-us-btn{margin-top:25px;}
+.kau-form-title{font-size:30px;}
+.kau-form-group .form-control{-webkit-box-shadow:none;border-bottom:1px;border-style:none none solid none;border-radius:0;border-color:#8547DE;}
+.kau-form-group .form-control:focus{box-shadow:none;border-width:0 0 2px 0;border-color:#8547DE;}
+.kau-textarea{resize:none;}

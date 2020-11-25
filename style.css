@@ -1,0 +1,239 @@
+/*
+Theme Name: Business Holder For Bussiness
+Author: Arafat Rahman
+Author URI: http://kauniaweb.com/
+Version: 0.0.1
+ */
+
+
+img {
+    height: auto;
+   max-width: 100%;
+  
+}
+html {
+    box-sizing: border-box;
+}
+
+body {
+      font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height:170%;
+    color: #666;
+    font-weight:normal;
+    
+    overflow-wrap: break-word;
+   
+}
+
+
+a:hover, a:focus {
+    color: #666;
+    text-decoration: none;
+   
+}
+a,
+a:visited {
+    color: #333;
+    text-decoration: none;
+    
+}
+
+.kau-readmore-btn{
+background-image: linear-gradient(318deg, rgba(255,128,120,1) 0%, rgba(185,139,238,1) 100%);
+border-radius: 5px;
+text-align: center;
+justify-content: center;
+ 
+}
+
+.kau-post-card-summary .category{
+padding: 8px;    
+background-color:#d7c7eb;
+text-align: center;
+color: white !important;
+font-style: bold;
+}
+
+
+.kau-post-info {
+    font-size: 0.85em;
+    margin-bottom: 5px;
+    color: #aaa;
+    
+}
+
+.kau-post-info ul {
+    margin: 0;
+}
+
+.kau-post-info ul li {
+    padding: 0 15px 0 0;
+}
+
+.kau-post-info a {
+    color: #aaa;
+}
+
+.kau-post-card {
+    border-radius: 20px;
+    border: 1px solid #eee;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px #a6a6a6;
+}
+
+.kau-post-sidebar .widget-area .widget {
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px #a6a6a6;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.kau-post-sidebar .widget-area .widget_recent_entries .widget-title {
+ background-image: linear-gradient(318deg, rgba(255,128,120,1) 0%, rgba(185,139,238,1) 100%);
+ border-radius: 10px;
+ color:white;
+ font-size: 18px;
+ font-style: bold;
+ padding: 10px;
+ text-transform: uppercase;
+}
+
+.kau-post-sidebar .widget-area .widget_categories .widget-title {
+ background-image: linear-gradient(318deg, rgba(255,128,120,1) 0%, rgba(185,139,238,1) 100%);
+ border-radius: 10px;
+ color:white;
+ font-size: 18px;
+ font-style: bold;
+ padding: 10px;
+ text-transform: uppercase;
+}
+
+.kau-post-sidebar .widget-area .widget_search .widget-title {
+ background-image: linear-gradient(59deg, rgba(173,209,0,1) 0%, rgba(123,146,10,1) 100%);
+ border-radius: 10px;
+ color:white;
+ font-size: 18px;
+ font-style: bold;
+ padding: 10px;
+ text-transform: uppercase;
+}
+
+
+.kau-post-card .kau-post-card-summary {
+    padding: 30px;
+}
+
+.kau-post-card .kau-post-featured-image {
+    width: 100%;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.kau-post-card .kau-post-card-summary {
+    width: 100%;
+    float: left;
+}
+
+.kau-post-grid-view {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.kau-post-grid-view .post {
+    position: relative;
+}
+
+.kau-post-grid-view .col-sm-12 {
+    position: relative;
+    overflow: hidden;
+}
+
+button.loadmore {
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 0.75em;
+    padding: 10px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    outline: none;
+}
+
+button.loadmore:hover {
+    color: #999;
+}
+
+.widget {
+    margin-bottom: 45px;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.widget ul,
+.widget ol {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.widget li {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0 !important;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 24px !important;
+    }
+
+    h2 {
+        font-size: 22px !important;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    h4 {
+        font-size: 18px !important;
+    }
+
+    h5 {
+        font-size: 14px !important;
+    }
+
+    h6 {
+        font-size: 12px !important;
+    }
+
+    
+    .kau-post-grid-view {
+        display: block;
+        overflow: hidden;
+    }
+
+    
+
+    .widget-area {
+        margin-top: 90px;
+    }
+
+    
+}
+
