@@ -10,6 +10,9 @@ function kau_blog_theme_setup() {
     add_theme_support('html5', array('search-form','comment-form','comment-list','gallery','caption',));
     add_theme_support('custom-logo');
     add_editor_style();
+    add_theme_support( 'custom-background', array(
+		'default-color' => 'AD7FEB'
+	) );
     register_nav_menus( array(
 		'primary' => __( 'Kau Primary Menu'),		
 	) );
@@ -58,3 +61,4 @@ function kau_register_sidebars() {
 }
 
 require get_template_directory() . '/inc/front-page-customizer.php';
+require get_template_directory() . '/inc/kau-custom-header.php';
