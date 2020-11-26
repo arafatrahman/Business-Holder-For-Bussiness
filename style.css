@@ -196,6 +196,22 @@ button.loadmore:hover {
     border-bottom: 2px solid #f1f1f1;
 }
 
+.inside-page {
+    padding: 30px 0 60px 0;
+}
+.kau-single-post-view{
+    
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px #a6a6a6;
+    text-align: center;
+    justify-content: center;
+}
+.kau-single-post-feature-image{
+    border-radius: 10px;
+}
 
 @media (max-width: 767px) {
     h1 {
