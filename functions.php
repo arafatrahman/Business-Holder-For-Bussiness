@@ -52,3 +52,5 @@ function kau_register_sidebars() {
         'after_title' => '</h2>',
     ));
 }
+
+require get_template_directory() . '/inc/front-page-customizer.php';
