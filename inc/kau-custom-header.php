@@ -22,13 +22,24 @@ if (!function_exists('kauThemeHeaderStyle')) :
                 #header{
                     background-image: url(<?php echo esc_url(get_header_image()); ?>);
                     background-position: center top;
-                    .logo h1 a { color:white;}
+                  
                 }
+                  .logo h1 a { color:white;}
+                #kau-header{
+                    background-image: url(<?php echo esc_url(get_header_image()); ?>);
+                    background-position: center top;
+                }
+               #kau-header .logo a{color:white;}
+               .nav-menu a{color:white;}
                 
         <?php } else{ ?>
                 #header{
                      background-color : #9F73FA;
-                     .logo h1 a { color:white;}
+                   
+                }
+                  .logo h1 a { color:white;}
+                #kau-header{
+                     background-color : #9F73FA;   
                 }
        `<?php }  ?>	
         </style>
