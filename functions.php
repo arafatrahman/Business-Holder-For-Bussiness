@@ -10,6 +10,9 @@ function kau_blog_theme_setup() {
     add_theme_support('html5', array('search-form','comment-form','comment-list','gallery','caption',));
     add_theme_support('custom-logo');
     add_editor_style();
+    register_nav_menus( array(
+		'primary' => __( 'Kau Primary Menu'),		
+	) );
 }
 
 /**
@@ -20,7 +23,8 @@ function kau_theme_blog_scripts() {
     
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
     wp_enqueue_style('kau-theme-style', get_stylesheet_uri());
-
+    wp_enqueue_style('kau-theme-kau-navigation', get_template_directory_uri() . '/assets/css/top-navbar.css');
+    wp_enqueue_script('kau-theme-kau-navigation', get_template_directory_uri() . '/assets/js/kau-navigation.js');
      if (is_front_page()) {
         echo '<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>';
         echo "<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>";
@@ -33,7 +37,7 @@ function kau_theme_blog_scripts() {
         echo '<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">';
         echo '<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>';
         wp_enqueue_style('kau-theme-font-page-css', get_template_directory_uri() . '/assets/css/kau-font-page.css');
-        wp_enqueue_script('kau-theme-font-page-css', get_template_directory_uri() . '/assets/js/kau-font-page.js');
+        wp_enqueue_script('kau-theme-font-page-js', get_template_directory_uri() . '/assets/js/kau-font-page.js');
         
   }
 }
