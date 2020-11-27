@@ -252,4 +252,12 @@ button.loadmore:hover {
 
     
 }
+.kau-theme-footer {
+    margin-top: 35px;
+  padding: 25px;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  justify-content: center;
+}
 
