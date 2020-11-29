@@ -76,21 +76,21 @@ font-style: bold;
 }
 
 .kau-post-card {
-    border-radius: 20px;
+    border-radius: 5px;
     border: 1px solid #eee;
     height: 100%;
     width: 100%;
     overflow: hidden;
-    box-shadow: 2px 2px 5px #a6a6a6;
+    box-shadow: 1px 1px 2px #a6a6a6;
 }
 
 .kau-post-sidebar .widget-area .widget {
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 5px;
     border: 1px solid #eee;
     overflow: hidden;
-    box-shadow: 2px 2px 5px #a6a6a6;
-    text-align: center;
+    box-shadow: 1px 1px 2px #a6a6a6;
+    
     justify-content: center;
    
 }
